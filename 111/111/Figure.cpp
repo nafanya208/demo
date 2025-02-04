@@ -99,9 +99,28 @@ Figure::Figure(Type type) {
 		for (int i = 0; i < cells.size(); i++) {
 			for (int j = 0; j < cells[i].size(); j++) {
 				if (cells[i][j] != 0) {
-					shape.setPosition(i * size, j * size);
+					
+					shape.setPosition((i + pos.first) * size, (j+ pos.second) * size);
 					window.draw(shape);
 				}
 			}
 		}
+	}
+
+	void Figure::Turn() {
+		vector < vector <int> > new_fig;
+		int w = cells[0].size();
+		int h = cells.size();
+		for (int i = 0; i < w; i++) {
+			new_fig.push_back(vector <int>());
+			for (int j = 0; j < h; j++) {
+				new_fig[i].push_back(0);
+			}
+		}
+		for (int i = 0; i < cells.size(); i++) {
+			for (int j = 0; j < cells[0].size(); j++) {
+				new_fig[j][i] = cells[i][cells[0].size() - 1 - j];
+			}
+		}
+		cells = new_fig;
 	}

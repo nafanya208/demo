@@ -9,11 +9,12 @@ class Figure
 {
 public: 
 	sf::Color color;
-	pair <int , int > pos_x, pos_y;
+	pair <float , float > pos;
 	vector < vector <int> > cells;
 	Figure();
 	Figure(Type type);
 	void Draw(sf::RenderWindow& window);
+	void Turn(); 
 
 };
 

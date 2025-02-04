@@ -1,3 +1,23 @@
 ﻿  Field.cpp
-C:\IT\SFML-2.6.2\111\111\Field.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  111.vcxproj -> C:\IT\SFML-2.6.2\111\x64\Debug\111.exe
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,9): warning C4244: аргумент: преобразование "_Ty1" в "const unsigned __int64", возможна потеря данных
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,9): warning C4244:         with
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,9): warning C4244:         [
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,9): warning C4244:             _Ty1=float
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,9): warning C4244:         ]
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,32): warning C4244: аргумент: преобразование "_Ty2" в "const unsigned __int64", возможна потеря данных
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,32): warning C4244:         with
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,32): warning C4244:         [
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,32): warning C4244:             _Ty2=float
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(54,32): warning C4244:         ]
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,20): warning C4244: аргумент: преобразование "_Ty1" в "const unsigned __int64", возможна потеря данных
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,20): warning C4244:         with
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,20): warning C4244:         [
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,20): warning C4244:             _Ty1=float
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,20): warning C4244:         ]
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,43): warning C4244: аргумент: преобразование "_Ty2" в "const unsigned __int64", возможна потеря данных
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,43): warning C4244:         with
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,43): warning C4244:         [
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,43): warning C4244:             _Ty2=float
+C:\IT\SFML-2.6.2\demo\111\111\Field.cpp(128,43): warning C4244:         ]
+  111.vcxproj -> C:\IT\SFML-2.6.2\demo\111\x64\Debug\111.exe
